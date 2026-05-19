@@ -3,12 +3,21 @@
     grid-template-columns: auto auto auto;
     background-color: dodgerblue;
     padding: 10px;
+    gap: 10px;
 }
 
 .container div{
     background-color: aliceblue;
-    border: 1px solid black;
-    padding: 10px;
+    padding: 15px;
     font-size: 30px;
     border-radius: 10px;
+    text-align: center;
+}
+
+.container div:hover{
+    background-color: lightblue;
+}
+
+.container div:nth-child(2){
+    background-color: gold;
 }
